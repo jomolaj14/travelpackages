@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    font-family: 'Poppins',sans-serif;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    background: url("https://wallpapers.com/images/hd/travel-hd-axhrsecphqby11wk.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ca8a02;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+
+.logo span{
+    font-size: 15px;
+    color: black;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 35px;
+    color: #eee;
+}
+
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    padding: 0 40px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.content{
+    color: white;
+    max-width: 500px;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script',cursive;
+}
+
+.content h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.button1{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00a651;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+   
+   
+}
+
+.enquiry-button:hover{
+    background-color: #00872c;
+}
+
+.modeal-content{
+    padding:20px;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-title{
+    font-family: 'Poppins',sans-seriff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+
+
+.package-card{
+    border:1px solid #ddd;
+    border-radius: 8px;
+    overflow:hidden;
+    text-align: center;
+    padding:20px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.package-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.package-card h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.package-card p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.package-card .duration{
+    color: #FF0000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.package-card .btn{
+    background-color: #007bff;
+    color: #fff;
+    padding:10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.more-packages{
+    display: inline-block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+
+
+
+.more-details-btn{
+    margin-top:10px;
+}
+
+.festivals-section img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.bnt1{
+    border-radius: 10px;
+    background-color: #007bff;
+    color:white;
+    text-align: center;
+    margin-left: 600px;
+    height: 60px;
+    width: 140PX;
+
+}
+.bnt1:hover{
+    background-color: red;
+    color: black;
+
+}
+
+
+.carousel-img{
+    height: 600px;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+    .carousel-img{
+        height: 400px;
+    }
+}
+
+
+
+
+.bd{
+    padding: 15px;
+}
+
+.bd img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bd img:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.service-card{
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.service-card img{
+    width:100%;
+    height: auto;
+}
+
+.service-title{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.learn-more{
+    font-size: 16px;
+    color: #6c63ff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+
+.testimonial-card{
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: wheat;
+   
+}
+
+.testimonial-text{
+    font-style: italic;
+    color: brown;
+}
+
+.customer-name{
+    margin-top:10px;
+    font-weight: bold;
+}
+
+.round-cricle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+
+footer h5{
+    font-weight: 600;
+}
+
+
+.social-icons{
+    font-size: 24px;
+    margin-right: 15px;
+
+}
+
+
+
+
+

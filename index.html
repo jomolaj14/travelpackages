@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tourguide</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+ 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+  
+    <header class="header">
+      <nav>
+        <div class="logo">Travel<span>Guide</span></div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">Packages</a>
+          </li>
+          <li><a href="#">Transport</a></li>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+      
+      <div class="overlay">
+        <div class="content">
+          <h1>Travel</h1>
+          <h2>far enough,</h2>
+          <h1>You meet</h1>
+          <h2>yourself</h2>
+          <button
+            class="button1"
+            data-bs-toggle="modal"
+            data-bs-target="#enquiryModal"
+          >
+            ENQUIRY 
+          </button>
+        </div>
+      </div>
+    </header>
+   
+   
+    <div
+      class="modal fade"
+      id="enquiryModal"
+      tabindex="-1"
+      aria-labelledby="enquiryModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enquiryModalLabel">
+              Enter Details
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div><br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <section id="hero">
+      <div class="container">
+        <h2 class="text-center mt-5 mb-5">HONEYMOON PACKAGES</h2>
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="package-card">
+                  <img
+                    src="https://www.keralatourism.org/images/houseboat-640x360.jpg"
+                    alt="kerala honeymoon"
+                  />
+                  <h2>Kerala Honeymoon Packages</h2>
+                  <p class="duration">(04 Nights / 05 Days)</p>
+                  <p>
+                    
+                    Enchanting yet thought provoking, the backwater of Kerala makes a perfect sight to spend a leisurely honeymoon.
+                    Enchanting yet thought provoking,.
+                  </p>
+                  <a href="#" class="btn">BOOK NOW</a>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="package-card">
+                  <img
+                    src="https://cdn.guidetour.in/wp-content/uploads/2017/01/goa-1.jpg.webp
+                    "
+                    alt="goa honeymoon"
+                  />
+                  <h2>Goa Honeymoon Packages</h2>
+                  <p class="duration">(04 Nights / 05 Days)</p>
+                  <p>
+                    No city in India screams ‘party’ the way Goa does! Take your partner on a romantic holiday to this golden land of the sun, and sea and make your bond last forever
+                  </p>
+                  <a href="#" class="btn">BOOK NOW</a>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="package-card">
+                  <img
+                    src="https://i.pinimg.com/736x/a8/17/3d/a8173d3e4a49f0fc2b9c1d98d5f3fbcb.jpg"
+                    alt="Maldives honeymoon"
+                  />
+                  <h2>Maldives Honeymoon Packages</h2>
+                  <p class="duration">(04 Nights / 05 Days)</p>
+                  <p>
+                    When it comes to romantic getaways,there are few experiences that can beat a Maldive honeymoon. When it comes to romantic getaways,few experiences 
+                  </p>
+                  <a href="#" class="btn">BOOK NOW</a>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="package-card">
+                  <img
+                    src="https://www.honeymoonpackagesmanali.org/uploads/8/2/6/1/8261259/p179.png
+                    "
+                    alt="Manali honeymoon"
+                  />
+                  <h2>Manali Honeymoon Packages</h2>
+                  <p class="duration">(04 Nights / 05 Days)</p>
+                  <p>
+                    Manali is a popular honeymoon destination for many reasons, including: Manali is located in the foothills of the Himalayas.
+                  </p>
+                  <a href="#" class="btn">BOOK NOW</a>
+                </div>
+              </div>
+        </div>
+          
+    </section>
+    <br>
+    <br>
+<div>
+  <button class="bnt1">
+    More packages
+  </button>  
+</div>
+
+    <section class="container my-5 mb-5">
+      <h2 class="text-center mb-4">SPECIAL KERALA FESTIVAL TOURS</h2>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+   
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://t4.ftcdn.net/jpg/02/80/34/55/360_F_280345590_X5WHJb4jxgWqUkn1At1Nqe0qJz867EEU.jpg"
+              class="d-block w-100 carousel-img"
+              alt="Onam Festival"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>KADHAKALI</h5>
+              <p>
+                Kathakali is a traditional Indian dance-drama art form that originated in Kerala over 300 years ago. It's a complex form of theater that combines dance, music, acting, drama, devotion, costumes, and makeup to tell stories without dialogue.              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://wallpapercave.com/wp/wp8050512.jpg"
+              class="d-block w-100 carousel-img"
+              alt="Kerala Boat Race"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>THRISSUR POORAM</h5>
+              <p>
+                Thrissur Pooram is a Hindu temple festival in Thrissur, Kerala, India that celebrates the state's cultural and spiritual heritage. It takes place annually in the Malayalam month of Medam, which is April–May, on Pooram day, when the moon rises with the Pooram star.               </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <img
+              src="https://64.media.tumblr.com/ce6b425ee473a09a8c616f87879d1f1a/tumblr_ofl96w0SuH1ru322to1_1280.jpg"
+              class="d-block w-100 carousel-img"
+              alt="Kerala Boat Race"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PULI KALI</h5>
+              <p>
+                is a folk art form and festival from Kerala, India that takes place on the fourth day of the Onam harvest festival.               </p>
+          </div>
+        </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+      <div class="mb-5"></div>
+    
+      <div class="row">
+        <div class="col-md-6">
+            <iframe width="550" height="340" src="https://www.youtube.com/embed/R83BlU5nnbs" title="Signature Video  | Kerala Tourism | Experience God’s Own Country" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+        <div class="col-md-6">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2eyQ8isVWvYveAcjm5NAh3IN-ES55EyAUsQ&s"
+            alt=""
+            class="img-fluid"
+            width="800px" height="800px">
+        </div>
+      </div>
+    </section>
+
+ 
+    <section class="container my-5 mb-5">
+      <h2 class="text-center mb-4">NORTH INDIAN TOURIST PLACES</h2>
+
+      <div class="row">
+        <div class="col-md-3 bd">
+          <img
+            class="img-fluid"
+            src="https://assets-news.housing.com/news/wp-content/uploads/2022/09/07110545/15-beautiful-places-in-India-for-tourists-to-visit.jpg"
+            alt="Taj"
+          />
+          <div class="booking">
+        
+        </div>
+        </div>
+      
+        <div class="col-md-3 bd">
+          <img
+            class="img-fluid"
+            src="https://housing.com/news/wp-content/uploads/2022/11/Famous-tourist-places-in-India-state-compressed.jpg"
+            alt="Amritsar"
+          />
+        </div>
+        <div class="col-md-3 bd">
+          <img
+            class="img-fluid"
+            src="https://assets-news.housing.com/news/wp-content/uploads/2022/07/18131039/shimla-feature-compressed.jpg"
+            alt="Shimla"
+          />
+        </div>
+        <div class="col-md-3 bd">
+          <img
+            class="img-fluid"
+            src="https://www.varanasiboatbooking.com/assets/images/b3.jpg"
+            alt="Varanasi city temple"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section-->
+    <section class="container my-5 mb-5">
+      <h2 class="text-center mb-4">OUR PREMIUM FEATURES</h2>
+<br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="service-card p-4">
+            <img
+              class="img-fluid"
+              src="https://www.tourmyindia.com/blog//wp-content/uploads/2015/12/ladakh-biking.jpg"
+            />
+            <h3 class="service-title">FREE BIKE RIDE</h3>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service-card p-4">
+            <img
+              class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOTb7k_8nP_lf0zG9gv0GRbL1a5k18hj-jQg&s"
+              alt="taxi ride"
+            />
+            <h3 class="service-title">CAMPFIRE</h3>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service-card p-4">
+            <img
+              class="img-fluid"
+              src="https://www.terraquechuaperu.com/wp-content/uploads/2022/12/guide-humantay-lake-1200x700.jpg"
+              alt="customer support girl"
+            />
+            <h3 class="service-title">TOUR GUIDE</h3>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service-card p-4">
+            <img
+              class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMlo4_aXQhf6RAfGrKz6LlBTKumRfYf3EXmg&s"
+              alt="customer support girl"
+            />
+            <h3 class="service-title">24X7 SUPPORT</h3>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Customers Feedback</h2>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial-card p-4 text-center">
+              <img
+                class="round-cricle mb-3"
+                src="data:image/jpeg;base64,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"
+                alt="Customer 1"
+              />
+              <p class="testimonial-text">
+                "Once again, many thanks for making such a trip possible. The organisation, the effectiveness, the planning and on top the driver were just perfect. We felt so comfortable although being so far from home"
+              </p>
+              <h5 class="customer-name">Albin xavi</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card p-4 text-center">
+              <img
+                class="round-cricle mb-3"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQgrVLFxmEwCOB6ClbWEbCnjqXKXSYOeIeg&s"
+                alt="Customer 2"
+              />
+              <p class="testimonial-text">
+                "It is a great pleasure to let you know that above tour you organized was a huge success for our group in every possible way we could imagine. Feel free to share this letter with anyone you feel necessary.Thanks again to you"
+              </p>
+              <h5 class="customer-name">Zera alex</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card p-4 text-center">
+              <img
+                class="round-cricle mb-3"
+                src="data:image/jpeg;base64,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"
+                alt="Customer 3"
+              />
+              <p class="testimonial-text">
+                "I must say I was delighted with the service you provided - it was just what I wanted. This is the second time I have used your services, and both times you provided a faultless experience.
+                I will definitely recommend you to others.
+              </p>
+              <h5 class="customer-name"> David felix</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>
+              At Travel Guide, we believe that every journey starts with a dream and every dream deserves to be fulfilled. Our mission is to transform those dreams into unforgettable experiences by providing you with the best travel guidance and resources available
+            </p>
+          </div>
+          <div class="col-md-4">
+            
+           <div class="quick">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNaentOC4SYCBR0limYcAqFuWipj0rCkZ3dg&s">
+             
+           </div>
+          </div>
+          
+          <div class="col-md-4">
+            <h5>social media</h5>
+            
+            <div class="social-icons">
+              <a href="#" class="text-white"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="text-white"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="text-white"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="bg-dark text-white text-center py-3">
+      <br><br><p>&copy; Travel Guide 2024 | Developed by jomol A J.</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
